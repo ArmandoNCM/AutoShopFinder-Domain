@@ -1,0 +1,53 @@
+# Kotlin Multiplatform common ignores
+*.iml
+.gradle/
+build/
+out/
+.idea/
+local.properties
+.DS_Store
+*.kotlin_module
+*.log
+*.tmp
+*.swp
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
+*.DS_Store
+*.AppleDouble
+.LSOverride
+Icon?
+
+# Kotlin/Java/IntelliJ
+*.class
+*.jar
+*.war
+*.ear
+*.apk
+*.ap_
+
+
+# Node artifacts (in case multiplatform tests or utilities use JS)
+node_modules/
+
+# Caches
+.cxx/
+*.lock
+.kotlinc/
+buildSrc/.gradle/
+
+# Kotlin/JS
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS Files
+__MACOSX/
+
+# VSCode
+.vscode/
+
+# Miscellaneous
+*.orig
+*.rej
