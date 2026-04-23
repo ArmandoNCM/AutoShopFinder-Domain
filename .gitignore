@@ -1,6 +1,7 @@
 # Kotlin Multiplatform common ignores
 *.iml
 .gradle/
+.kotlin/
 build/
 out/
 .idea/

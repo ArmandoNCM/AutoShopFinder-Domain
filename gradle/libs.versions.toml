@@ -1,6 +1,6 @@
 [versions]
-kotlin = "2.3.20"
-agp = "9.1.0"
+kotlin = "2.3.21"
+agp = "9.2.0"
 kotlinxCoroutines = "1.10.2"
 
 [plugins]

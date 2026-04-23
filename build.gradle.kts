@@ -7,7 +7,9 @@ kotlin {
 
     android {
         namespace = "com.example.domain"
-        compileSdk { version = release(36) }
+        compileSdk {
+            version = release(37)
+        }
         withHostTest {
             isIncludeAndroidResources = false
         }
